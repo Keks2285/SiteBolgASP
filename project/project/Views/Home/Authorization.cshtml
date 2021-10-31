@@ -1,0 +1,42 @@
+﻿@model project.Models.LogUser
+@{
+    ViewData["Title"] = "Авторизация";
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/css/site.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <style>
+    body { background-image: url(https://media.gq.ru/photos/600920aa0400980d57586fbe/master/pass/0.jpg); }
+    </style>
+
+   
+</head>
+<body>
+    <center>
+    <form asp-action="Authorization" 
+         style="vertical-align:central;" 
+          >
+        <div >
+            <input type="text" asp-for="Login" placeholder="Login"
+                   style=" background: #C0C0C0; text-align: start;"
+                  width="100d"/>
+        </div>
+        <div >
+            <input type="password" asp-for="Password" placeholder="**********"
+                   style=" background: #C0C0C0; text-align: start;"
+                 />
+        </div>
+        <div>
+            <input type="submit" style="background:#C0C0C0" value="Войти"  class="btn bnt-default" />
+        </div>
+        <a asp-action="Registration" asp-controller="home" style="color:darkturquoise">Зарегистрироваться</a>
+    </form>
+   
+
+        </center>
+    </body>
+</html
+>

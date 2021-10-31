@@ -1,0 +1,18 @@
+﻿@model project.Models.User
+@{
+    ViewBag.Title = "Добавление пользователя";
+}
+<form asp-action="create" asp-controller="home">
+    <div class="form-group">
+        <input type="email" asp-for="Email" class="form-control" placeholder="Email" />
+    </div>
+    <div class="form-group">
+        <input type="text" asp-for="Login" class="form-control" placeholder="Login" />
+    </div>
+    <div class="form-group">
+        <input type="password" asp-for="Password" class="form-control" placeholder="**********" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Создать" class="btn bnt-default"/>
+    </div>
+</form>

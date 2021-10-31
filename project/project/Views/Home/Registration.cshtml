@@ -1,0 +1,34 @@
+﻿@model project.Models.User
+@{
+    ViewData["Title"] = "Регистрация";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/css/site.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-image: url(https://www.soyuz.ru/public/uploads/files/2/7406289/20200422140422fea03e2b17.jpg);
+        }
+    </style>
+
+
+</head>
+<body>
+    <form asp-action="Registration">
+        <div class="form-group">
+            <input type="email" asp-for="Email" class="form-control" placeholder="Email" width="400" />
+        </div>
+        <div class="form-group">
+            <input type="text" asp-for="Login" class="form-control" placeholder="Login" width="400" />
+        </div>
+        <div class="form-group">
+            <input type="text" asp-for="Password" class="form-control" placeholder="Password" width="400" />
+        </div>
+        <div class="form-group">
+            <input type="submit" asp-action="Create" style="color:darkturquoise" value="Зарегистрироваться" class="btn bnt-default" width="400" />
+        </div>
+    </form>
+</body>
+</html>
