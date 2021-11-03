@@ -8509,11 +8509,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oleg\\Desktop\\Учеба\\project\\project\\project.csproj",
+      "projectUniqueName": "C:\\Users\\Oleg\\Documents\\GitHub\\SiteBolgASP\\project\\project\\project.csproj",
       "projectName": "project",
-      "projectPath": "C:\\Users\\Oleg\\Desktop\\Учеба\\project\\project\\project.csproj",
+      "projectPath": "C:\\Users\\Oleg\\Documents\\GitHub\\SiteBolgASP\\project\\project\\project.csproj",
       "packagesPath": "C:\\Users\\Oleg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oleg\\Desktop\\Учеба\\project\\project\\obj\\",
+      "outputPath": "C:\\Users\\Oleg\\Documents\\GitHub\\SiteBolgASP\\project\\project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Oleg\\AppData\\Roaming\\NuGet\\NuGet.Config",
